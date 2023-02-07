@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani:wght@400;700&display=block");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: nunito;
+}
+.big_image {
+  width: 100%;
+  background: url(../images/laptop.jpeg);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  height: 100%;
+  width: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  padding: 50px 0 0 72px;
+}
+.border {
+  height: 100px;
+  width: 130px;
+  border: 1px solid rgb(202, 202, 202);
+  position: absolute;
+  top: 8%;
+  left: 24%;
+}
+.dreamplus {
+  height: 100px;
+  width: 130px;
+  border: 1px solid rgb(202, 202, 202);
+  padding: 18px 0 0 0;
+}
+.dreamplus p {
+  color: rgb(202, 202, 202);
+  font-size: 24px;
+  font-family: nunito;
+  text-align: center;
+}
+.menu {
+  margin-top: 50px;
+}
+
+.menu li {
+  text-align: right;
+  margin: 10px 110px 0 0;
+}
+
+.menu li a {
+  color: white;
+  font-family: nunito;
+  font-size: 14px;
+}
+.social {
+  margin-top: 90px;
+}
+.social li {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0 8px 0 0;
+  text-align: center;
+  line-height: 25px;
+}
+.social li a i {
+  color: black;
+}
+.notes {
+  color: white;
+  font-size: 12px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+.introduction {
+  height: 270px;
+  width: 350px;
+  background-color: rgba(221, 218, 218, 0.5);
+  margin: 150px 50px 0 0;
+  padding: 20px 0 0 20px;
+  border: 1px solid rgb(197, 197, 197);
+}
+.introduction h3 {
+  color: rgb(13, 103, 133);
+  margin-bottom: 20px;
+}
+.introduction p {
+  font-size: 15px;
+  line-height: 20px;
+}
+.first_para {
+  margin-bottom: 15px;
+}
+.second_section {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+.darkleft {
+  height: 1700px;
+  width: 20%;
+  background-color: gray;
+}
+.one_div {
+  height: 1700px;
+  width: 80%;
+  position: relative;
+}
+.company_info {
+  height: 400px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutas_sec {
+  height: 100%;
+  width: 48%;
+  padding: 20px 40px 0 80px;
+}
+.aboutas_sec i,
+.profile_sec i {
+  color: rgb(13, 103, 133);
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.aboutas_sec h3,
+.profile_sec h3,
+.work h2,
+.our_client h2,
+.talk_info h2 {
+  color: rgb(13, 103, 133);
+  font-family: nunito;
+  font-size: 25px;
+}
+.aboutas_sec p,
+.profile_sec p {
+  line-height: 22px;
+}
+.aboutus_first {
+  margin: 20px 0 20px 0;
+}
+
+.profile_sec {
+  height: 100%;
+  width: 48%;
+  padding: 20px 40px 0 80px;
+}
+.workborder {
+  height: 370px;
+  width: 87%;
+  border: 2px solid rgb(131, 126, 126);
+  position: absolute;
+  top: 26%;
+  left: 5%;
+}
+.work {
+  height: 370px;
+  width: 87%;
+  margin: 53px 0 0 65px;
+  border: 2px solid rgb(128, 127, 127);
+  padding: 30px 0 0 50px;
+}
+.work img {
+  height: 250px;
+  width: 22%;
+  margin-right: 14px;
+}
+.our_client {
+  height: 400px;
+  width: 90%;
+  padding: 20px 0 0 60px;
+  margin: 20px 0 0 0;
+}
+.our_client p {
+  font-family: nunito;
+  margin: 12px 90px 12px 0;
+}
+.clients_logo {
+  height: 230px;
+  width: 100%;
+  padding: 10px 0 0 0;
+}
+.clients_logo ul li {
+  display: inline-block;
+  height: 80px;
+  width: 190px;
+  text-align: center;
+  margin: 0 10px 20px 0;
+  padding: 10px 0 0 0;
+  border: 2px solid rgb(128, 127, 127);
+}
+.clients_logo img {
+  height: 60px;
+  width: 150px;
+}
+.talkform {
+  height: 320px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.talk_info {
+  height: 290px;
+  width: 45%;
+  margin: 20px 0 0 40px;
+  border: 2px solid white;
+  padding: 30px 20px 0 40px;
+}
+.talk_info p {
+  font-family: nunito;
+  font-size: 14px;
+}
+.info_para {
+  margin: 10px 0 20px 0;
+}
+
+.form {
+  height: 320px;
+  width: 50%;
+  padding: 30px 0 0 30px;
+}
+.form .text {
+  display: block;
+  height: 30px;
+  width: 75%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin: 0 0 30px 0;
+}
+
+textarea {
+  width: 75%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+textarea::placeholder {
+  font-size: 16px;
+}
+.send {
+  display: block;
+  height: 40px;
+  width: 25%;
+  float: right;
+  margin: 10px 115px 0 0;
+}
